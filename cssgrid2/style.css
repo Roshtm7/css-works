@@ -1,0 +1,35 @@
+.parent{
+    width: 75%;
+    height: 500px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+
+.child{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.parent>:nth-child(1){
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1/4;
+    height: 100px;
+}
+
+.parent>:nth-child(5){
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1/4;
+    height: 100px;
+    margin-top: 60px;
+}

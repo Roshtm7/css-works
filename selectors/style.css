@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+
+}
+
+#first{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#second{
+    color: yellow;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.main{
+    color: blue;
+}
+
+.hello{
+    color: yellowgreen;
+}
